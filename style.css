@@ -1,0 +1,46 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: linear-gradient(to right, #18235f 0%, rgba(5, 8, 19, 0.859) 100%);
+    
+}
+
+.cabecalho {
+    position: relative;
+    background-image: linear-gradient(to right, #18235f 0%, rgba(5, 8, 19, 0.859) 100%);
+    display: inline-block;
+    border: 2px solid #18235f;
+    width: 100%;
+    height: 200px;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    
+    
+}
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    color: color-mix(in srgb, rgb(107, 107, 124) 90%, rgb(247, 233, 233) 100%);
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#lua {
+    color: white;
+    display: flex;
+    justify-content: left;
+    font-weight: bold;
+    font-size: 25px;
+    
+
+    
+}
+
+    
