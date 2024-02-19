@@ -1,43 +1,67 @@
-@charset "UTF-8";
-* {
-    margin: 0px;
-    padding: 0px;
-}
-body {
-    background-image: linear-gradient(to right, #18235f 0%, rgba(5, 8, 19, 0.859) 100%);
-    
-}
+    @charset "UTF-8";
 
-.cabecalho {
-    position: relative;
-    background-image: linear-gradient(to right, #18235f 0%, rgba(5, 8, 19, 0.859) 100%);
-    display: inline-block;
-    border: 2px solid #18235f;
-    width: 100%;
-    height: 200px;
-}
-.menu {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: right;
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
     
+
+    :root {
+        --fonte1: Arial, Helvetica, sans-serif;
+    }
+
+
+
+    body, main, header {
+        background-color: black;
+        min-height: 100vh;
+        font-family: var(--fonte1);
+        background-image: url(https://www.infoescola.com/wp-content/uploads/2008/04/galaxia-andromeda.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
     
+        
+
+    .cabecalho {
+        position: relative;
+        background-color: black;
+        width: 100vh;
+        display: inline-block;
+        width: 100%;
+        height: 200px;
+        
+    }
+    .menu {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: right;
 }
 .menu a {
     display: inline-block;
     text-decoration: none;
-    color: color-mix(in srgb, rgb(107, 107, 124) 90%, rgb(247, 233, 233) 100%);
+    color: rgb(126, 117, 158);
     padding: 20px;
     font-size: 20px;
     font-weight: bold;
 }
-#lua {
-    color: white;
+
+.menu a:hover {
+    border-radius: 15px;
+    transition: 1s;
+    text-decoration: underline;
+}
+#webb {
+    color: rgba(12, 160, 12, 0.603);
     display: flex;
     justify-content: left;
     font-weight: bold;
     font-size: 25px;
+    padding-left: 30px;
     
 
     
