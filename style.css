@@ -15,12 +15,10 @@
 
 
     body, main, header {
-        background-color: black;
+        background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
         min-height: 100vh;
         font-family: var(--fonte1);
-        background-image: url(https://www.infoescola.com/wp-content/uploads/2008/04/galaxia-andromeda.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
+        
         
     }
     
